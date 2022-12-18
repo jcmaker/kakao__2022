@@ -28,3 +28,18 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+@media (min-width: 800px) {
+  .no-mobile {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e363e;
+    color: #fafafa;
+    top: 0;
+    left: 0;
+  }
+}
