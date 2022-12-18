@@ -1,0 +1,21 @@
+.badge {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  animation: pulse 1250ms infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: #fa593d 0 0 0 0;
+  }
+  75% {
+    box-shadow: #fa593d00 0 0 0 0.875rem;
+  }
+}
